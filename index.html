@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Left Panel: Weather Details -->
+        <div class="left-panel">             
+            <div class="toggle-bar">
+            <div class="theme-toggle">
+                <label class="switch">
+                    <input type="checkbox" id="themeSwitch">
+                    <span class="slider round"></span>
+                </label>
+                <span id="themeLabel">Dark Mode</span>
+            </div>
+
+            <div class="unit-toggle">
+                <label class="switch">
+                    <input type="checkbox" id="unitSwitch">
+                    <span class="slider round"></span>
+                </label>
+                <span id="unitLabel">°C</span>
+            </div>
+        </div>
+        <div id="welcome-message">
+            <h2>🌤️ Welcome to WeatherMate </h2>
+            <h6>Please allow location to see weather updates.</h6>
+          </div> 
+        <div id="loader" class="left-loader-message">⏳ Fetching your weather data...</div>
+        <div id="weatherInfo" >
+
+        </div>
+        <!-- JS will inject content here -->
+
+    </div>
+
+    <!-- Right Panel: Search -->
+    <div class="right-panel">
+        <div class="search-box-wrapper">
+            <div class="search-box">
+                <input type="text" id="cityInput" placeholder="Search Location..." />
+                <button id="searchBtn">Search</button>
+            </div>
+
+            <!-- ✅ Move suggestionList here -->
+            <ul id="suggestionList" class="suggestion-list"></ul>
+        </div>
+
+        <!-- Search history moved outside the search-box -->
+        <div class="search-history">
+            <h4>Recent Searches</h4>
+            <ul id="historyList"></ul>
+            <div id="loader" class="loader" style="display: none;"></div>
+        </div>
+
+        <!-- Loader -->
+
+
+        <!-- ✅ Forecast section added here -->
+        <div class="forecast-section" id="forecastSection">
+            <h3>🌤️ 4-Day Forecast</h3>
+            <div class="forecast-cards" id="forecastCards"></div>
+        </div>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
