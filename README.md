@@ -2,8 +2,8 @@
 
 **Weather Mate** is a sleek and responsive weather web app that provides real-time weather updates, 4-day forecast, and detailed weather insights — all with a stylish modern UI. Built using **HTML**, **CSS**, and **Vanilla JavaScript**, and powered by the **OpenWeather API**.
 
-![Weather Mate Screenshot - Dark Mode](./assets/weather-dark.png)
-![Weather Mate Screenshot - Light Mode](./assets/weather-light.png)
+![Weather Mate Screenshot - Dark Mode](./images/darkmode.png)
+![Weather Mate Screenshot - Light Mode](./images/lightmode.png)
 
 ---
 
@@ -80,14 +80,6 @@ const apiKey = "YOUR_API_KEY_HERE";
 - JavaScript (Vanilla JS)  
 - OpenWeather API  
 - Geolocation API  
-
----
-
-## 📸 Preview
-
-| 🌙 Dark Mode | ☀️ Light Mode |
-|-------------|----------------|
-| ![Dark Mode](./assets/weather-dark.png) | ![Light Mode](./assets/weather-light.png) |
 
 ---
 
