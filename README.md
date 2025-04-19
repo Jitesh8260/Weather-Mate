@@ -26,7 +26,7 @@
 
 ## 🖥️ Live Demo
 
-🔗 [View Live Project](https://your-live-link.netlify.app)  
+🔗 [View Live Project](https://weathermate-gnwy.onrender.com/)  
 _(replace this link with your deployed project URL)_
 
 ---
