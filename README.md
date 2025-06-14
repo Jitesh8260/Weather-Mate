@@ -26,8 +26,7 @@
 
 ## 🖥️ Live Demo
 
-🔗 [View Live Project](https://weathermate-gnwy.onrender.com/)  
-_(replace this link with your deployed project URL)_
+🔗 [WeatherMate](https://weathermate-gnwy.onrender.com/)  
 
 ---
 
